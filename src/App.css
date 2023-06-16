@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+* {    
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #000000;
+  font: normal 400 15px/22px 'Poppins', sans-serif;
+  width: 900px;
+  margin: 0 auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  margin: 7px 0 0 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3 {
+  margin: 0;
+  color: rgb(48, 124, 187);
+  font-size: large;
+  font-weight: 700;
+}
+
+h4 {
+  margin: 0;
+}
+
+header, footer {
+  margin-top: 30px;
+  padding-left: 100px;
+}
+
+main {
+  margin-top: 40px;
+}
+
+.RowList {
+  padding: 0;
+}
+
+.Row {
+  margin: 0;
+  height: inherit;
+}
+
+.TabSwitcher {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0 5px 0;
+}
+
+.sectionTabSwitcher {
+  height: auto;
+}
+
+.leftHeader {
+  width: 500px;
+}
+
+.rowLeftHeader {
+  margin: 2px 0;
+}
+
+.mainHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inputPlace {
+  display: block;
+  width: 670px;
+  height: 40px;
+  border-style: solid;
+  border-color: rgb(235, 221, 36);
+  border-width: 2px;
+  outline: none;
+  box-shadow: none;
+}
+
+.searchButton {
+  display: block;
+  width: 100px;
+  height: 40px;
+  background-color: rgb(235, 221, 36);
+  border: none;
+  font-size: large;
+}
+
+.searchForm {
+  display: flex;
+  align-items:flex-start;
+}
+
+.mainForm {
+  text-align: start;
+}
+
+.SiteFooter {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  height: 250px;
+  margin-top: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weather {
+  display: flex;
+  flex-direction: row;
 }

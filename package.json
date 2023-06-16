@@ -39,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@compodoc/live-server": "^1.2.3",
+    "typedoc": "^0.24.8"
   }
 }
